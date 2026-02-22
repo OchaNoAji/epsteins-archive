@@ -12,6 +12,7 @@ public class BlueArchivesItem implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerItems(); // 注册物品
+		com.bluearchivesitem.block.ModBlocks.registerBlocks(); // 注册方块
 		LOGGER.info("Blue Archive's Item Mod loaded!");
 	}
 }

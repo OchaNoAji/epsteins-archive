@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DAD",
+    "DDD"
+  ],
+  "key": {
+    "D": { "item": "minecraft:diamond" },
+    "A": { "item": "minecraft:amethyst_shard" }
+  },
+  "result": { "item": "blue-archives-item:qhs_block", "count": 1 }
+}
