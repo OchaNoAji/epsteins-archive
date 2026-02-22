@@ -1,5 +1,6 @@
 package com.bluearchivesitem;
 
+import com.bluearchivesitem.item.ModItemGroups;
 import com.bluearchivesitem.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class BlueArchivesItem implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerItems(); // 注册物品
 		com.bluearchivesitem.block.ModBlocks.registerBlocks(); // 注册方块
+		ModItemGroups.registerItemGroups(); // 注册物品栏
 		LOGGER.info("Blue Archive's Item Mod loaded!");
 	}
 }

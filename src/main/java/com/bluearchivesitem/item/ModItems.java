@@ -8,16 +8,14 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    // 1. 定义物品：青辉石
+    // 定义青辉石
     public static final Item QHS = new Item(new FabricItemSettings());
 
-    // 2. 统一注册方法
     public static void registerItems() {
         BlueArchivesItem.LOGGER.info("Registering Mod Items for " + BlueArchivesItem.MOD_ID);
         registerItem("qhs", QHS);
     }
 
-    // 3. 辅助注册工具
     private static Item registerItem(String name, Item item) {
         // Resource assets use the folder 'blue-archives-item' (with hyphens).
         // Register the item using that namespace so Minecraft can find the
