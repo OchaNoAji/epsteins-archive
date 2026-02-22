@@ -19,8 +19,11 @@ public class ModItems {
 
     // 3. 辅助注册工具
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, 
-                new Identifier(BlueArchivesItem.MOD_ID, name), 
+        // Resource assets use the folder 'blue-archives-item' (with hyphens).
+        // Register the item using that namespace so Minecraft can find the
+        // model/texture files located under assets/blue-archives-item/...
+        return Registry.register(Registries.ITEM,
+                new Identifier("blue-archives-item", name),
                 item);
     }
 }
