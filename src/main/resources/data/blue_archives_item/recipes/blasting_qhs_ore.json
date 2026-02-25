@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "blue_archives_item:qhs_ore_block"
+  },
+  "result": "blue_archives_item:qhs",
+  "experience": 2.5,
+  "cookingtime": 75
+}
