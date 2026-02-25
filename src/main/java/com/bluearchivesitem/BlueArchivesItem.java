@@ -64,5 +64,9 @@ public class BlueArchivesItem implements ModInitializer {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(content -> {
             content.add(com.bluearchivesitem.block.ModBlocks.QHS_BLOCK);
         });
+		// 5. 添加到原材料组 (Ingredients)
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(content -> {
+    		content.add(ModItems.QHS); 
+		});
     }
 }
