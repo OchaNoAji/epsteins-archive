@@ -1,5 +1,5 @@
 {
-  "feature": "blue_archives_item:ore_custom_end",
+  "feature": "blue_archives_item:ore_end_custom",
   "placement": [
     {
       "type": "minecraft:count",
@@ -11,12 +11,12 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:uniform",
+        "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "below_top": 256
+          "below_top": 100
         },
         "min_inclusive": {
-          "above_bottom": -30
+          "above_bottom": -10
         }
       }
     },

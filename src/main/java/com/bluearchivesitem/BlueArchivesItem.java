@@ -26,7 +26,7 @@ public class BlueArchivesItem implements ModInitializer {
 		com.bluearchivesitem.block.ModBlocks.registerBlocks(); // 注册方块
 		ModItemGroups.registerItemGroups(); // 注册物品栏
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);// 在主世界生成青辉石矿石
-		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);//在末地生成
+		BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);//在末地生成
 		LOGGER.info("Blue Archive's Item Mod loaded!");
 	}
 }

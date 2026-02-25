@@ -26,8 +26,11 @@ public class ModItemGroups {
                         //entries.add(ModItems.OTHER_ITEM);
                         // 添加物品注册
                         entries.add(ModItems.QHS);
+                        entries.add(ModItems.QHS_SWORD);
                         entries.add(ModItems.QHS_PICKAXE);
                         entries.add(ModItems.QHS_AXE);
+                        entries.add(ModItems.QHS_SHOVEL);
+                        entries.add(ModItems.QHS_HOE);
                         
                     }).build());
 

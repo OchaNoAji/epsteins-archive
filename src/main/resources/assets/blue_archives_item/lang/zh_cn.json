@@ -6,5 +6,8 @@
   "block.blue_archives_item.qhs_ore_block": "青辉石矿石",
   "item.blue_archives_item.qhs_pickaxe": "青辉石镐",
   "item.blue_archives_item.qhs_axe": "青辉石斧",
+  "item.blue_archives_item.qhs_sword": "青辉石剑",
+  "item.blue_archives_item.qhs_shovel": "青辉石铲",
+  "item.blue_archives_item.qhs_hoe": "青辉石锄",
   "itemgroup.blue_archives_group": "蔚蓝档案的物品"
 }

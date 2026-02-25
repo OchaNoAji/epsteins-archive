@@ -11,7 +11,10 @@ public class ModItems {
     public static final Item QHS = registerItem("qhs", new Item(new FabricItemSettings()));
     public static final Item QHS_PICKAXE = registerItem("qhs_pickaxe", new ModPickaxeItem(BlueArchiveToolMaterial.INSTANCE, 1, -2.8F, new FabricItemSettings()));    
     public static final Item QHS_AXE = registerItem("qhs_axe", new ModAxeItem(BlueArchiveToolMaterial.INSTANCE, 7.0F,-2.5F,new FabricItemSettings()));
-
+    public static final Item QHS_SWORD = registerItem("qhs_sword", new ModSwordItem(BlueArchiveToolMaterial.INSTANCE, 5, -2.4F, new FabricItemSettings()));
+    public static final Item QHS_SHOVEL = registerItem("qhs_shovel", new ModShovelItem(BlueArchiveToolMaterial.INSTANCE, 1.5F, -3.0F, new FabricItemSettings()));
+    public static final Item QHS_HOE = registerItem("qhs_hoe", new ModHoeItem(BlueArchiveToolMaterial.INSTANCE, -3, 0.0F, new FabricItemSettings()));
+    
     public static void registerItems() {
         BlueArchivesItem.LOGGER.info("Registering Mod Items for " + BlueArchivesItem.MOD_ID);
     }
