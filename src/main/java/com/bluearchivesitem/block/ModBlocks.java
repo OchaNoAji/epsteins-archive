@@ -10,7 +10,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.minecraft.registry.tag.BlockTags;
 
 //public class ModBlocks {
     /*// 方块：青辉石矿石块

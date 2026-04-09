@@ -2,7 +2,6 @@ package com.bluearchivesitem.item;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.item.Items;
 
 public class BlueArchiveToolMaterial implements ToolMaterial {
     public static final BlueArchiveToolMaterial INSTANCE = new BlueArchiveToolMaterial();
